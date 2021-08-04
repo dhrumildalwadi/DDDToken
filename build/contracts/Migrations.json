@@ -1,0 +1,63 @@
+{
+  "contractName": "Migrations",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "last_completed_migration",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "completed",
+          "type": "uint256"
+        }
+      ],
+      "name": "setCompleted",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x606060405233600060006101000a81548173ffffffffffffffffffffffffffffffffffffffff0219169083021790555061016a8061003d6000396000f360606040526000357c010000000000000000000000000000000000000000000000000000000090048063445df0ac146100525780638da5cb5b1461007a578063fdacd576146100b85761004d565b610002565b346100025761006460048050506100d5565b6040518082815260200191505060405180910390f35b346100025761008c60048050506100de565b604051808273ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34610002576100d36004808035906020019091905050610104565b005b60016000505481565b600060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561016657806001600050819055505b5b5b5056",
+  "deployedBytecode": "0x60606040526000357c010000000000000000000000000000000000000000000000000000000090048063445df0ac146100525780638da5cb5b1461007a578063fdacd576146100b85761004d565b610002565b346100025761006460048050506100d5565b6040518082815260200191505060405180910390f35b346100025761008c60048050506100de565b604051808273ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34610002576100d36004808035906020019091905050610104565b005b60016000505481565b600060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561016657806001600050819055505b5b5b5056",
+  "sourceMap": "57:270:1:-;;;104:10;81:33;;;;;;;;;;;;;;;;;;57:270;;;;;;",
+  "deployedSourceMap": "57:270:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;118:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;81:33;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;222:103;;;;;;;;;;;;;;;;;;;;;118:36;;;;;;:::o;81:33::-;;;;;;;;;;;;;:::o;222:103::-;205:5;;;;;;;;;;;191:19;;:10;:19;;;187:26;;;311:9;284:24;;:36;;;;;212:1;187:26;222:103;;:::o",
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.2+commit.af6afb04.mod.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xe3672Ad56820b60261a1Dd7d6738A1Cf146DfEDF",
+      "transactionHash": "0xa3f7dcf5b1a7652e5386718bb964ddb5c77d135a3ce1a91368c42e87d7b42029"
+    }
+  },
+  "schemaVersion": "3.4.2",
+  "updatedAt": "2021-07-31T10:32:50.684Z",
+  "networkType": "ethereum"
+}
